@@ -13,7 +13,8 @@ You must set working directory to the location where the UCI HAR Dataset was unz
 
 ## Description of Code
 
- 0. Clean working space, load dplyr, set working directory and load in data
+First clean working space, load dplyr, set working directory and load in data. Then
+
  1. Merge the training and the test sets to create one data set.
      - Load feature variable names and activity labels
      - Read in testing data and bind together column-wise; add column names; bind testing subject, activity and feature data together column-wise
